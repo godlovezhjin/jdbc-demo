@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<!-- 当配置只有一个时，可以省略命名，直接使用default-config -->
+	<default-config>
+		<!-- 指定连接数据源的基本属性 -->
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/zj_test</property>
+		<property name="user">root</property>
+		<property name="password">root</property>
+		
+		<!-- 若数据库中连接数不足时, 一次向数据库服务器申请多少个连接 -->
+		<property name="acquireIncrement">10</property>
+		<!-- 初始化数据库连接池时连接的数量 -->
+		<property name="initialPoolSize">50</property>
+		<!-- 数据库连接池中的最小的数据库连接数 -->
+		<property name="minPoolSize">50</property>
+		<!-- 数据库连接池中的最大的数据库连接数 -->
+		<property name="maxPoolSize">200</property>
+	</default-config>
+</c3p0-config>

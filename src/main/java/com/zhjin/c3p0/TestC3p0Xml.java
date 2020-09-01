@@ -1,11 +1,11 @@
-package com.zhjin.jdbc.c3p0;
+package com.zhjin.c3p0;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 
-public class TestC3p0Properties {
+public class TestC3p0Xml {
 
     public static void main(String[] args) throws SQLException {
         ComboPooledDataSource ds = new ComboPooledDataSource();

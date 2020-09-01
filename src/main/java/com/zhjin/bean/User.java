@@ -1,4 +1,4 @@
-package com.zhjin.jdbc.bean;
+package com.zhjin.bean;
 
 public class User {
 

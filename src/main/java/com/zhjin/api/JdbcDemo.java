@@ -1,4 +1,4 @@
-package com.zhjin.jdbc.test;
+package com.zhjin.api;
 
 import org.junit.Test;
 
@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class TestJDBC {
+public class JdbcDemo {
 
     private String driver = "com.mysql.jdbc.Driver";
     private String url = "jdbc:mysql://localhost:3306/zj_test";

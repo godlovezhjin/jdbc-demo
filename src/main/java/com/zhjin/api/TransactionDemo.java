@@ -1,4 +1,4 @@
-package com.zhjin.jdbc.test;
+package com.zhjin.api;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -25,7 +25,7 @@ import java.sql.SQLException;
  * 1)一个事务的所有sql语句，必须在同一个connection对象中执行
  * 2)在关闭连接(连接池技术关闭连接其实只是把连接放回池中)之前,一定要还原Connection对象的setAutoCommit(true)
  */
-public class TestTransaction {
+public class TransactionDemo {
 
     public static void main(String[] args) throws Exception {
 

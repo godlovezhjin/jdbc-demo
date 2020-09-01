@@ -1,4 +1,4 @@
-package com.zhjin.jdbc.dbcp;
+package com.zhjin.dbcp;
 
 import org.apache.commons.dbcp.BasicDataSourceFactory;
 

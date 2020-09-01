@@ -8,6 +8,13 @@
     <artifactId>jdbc-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <java.version>1.8</java.version>
+    </properties>
+
     <dependencies>
         <!--mysql驱动包-->
         <dependency>
@@ -15,6 +22,25 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.44</version>
         </dependency>
+        <!--sqlite-jdbc驱动-->
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.20.1</version>
+        </dependency>
+        <!--kylin-jdbc驱动-->
+        <dependency>
+            <groupId>org.apache.kylin</groupId>
+            <artifactId>kylin-jdbc</artifactId>
+            <version>2.3.2</version>
+        </dependency>
+        <!--presto-jdbc驱动-->
+        <dependency>
+            <groupId>com.facebook.presto</groupId>
+            <artifactId>presto-jdbc</artifactId>
+            <version>0.215</version>
+        </dependency>
+
         <!--dbcp-->
         <dependency>
             <groupId>commons-dbcp</groupId>
@@ -38,6 +64,19 @@
             <artifactId>mchange-commons-java</artifactId>
             <version>0.2.15</version>
         </dependency>
+        <!--druid-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.23</version>
+        </dependency>
+        <!--jsqlparser-->
+        <dependency>
+            <groupId>net.sf.jsqlparser</groupId>
+            <artifactId>jsqlparser</artifactId>
+            <version>0.8.0</version>
+        </dependency>
+
         <!--junit-->
         <dependency>
             <groupId>junit</groupId>
@@ -45,5 +84,4 @@
             <version>4.10</version>
         </dependency>
     </dependencies>
-
 </project>

@@ -1,11 +1,11 @@
-package com.zhjin.jdbc.test;
+package com.zhjin.api;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class TestBatch {
+public class BatchDemo {
 
     public static void main(String[] args) throws Exception {
 

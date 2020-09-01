@@ -1,4 +1,4 @@
-package com.zhjin.jdbc.util;
+package com.zhjin.utils;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 

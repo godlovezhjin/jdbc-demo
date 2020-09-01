@@ -1,4 +1,4 @@
-package com.zhjin.jdbc.util;
+package com.zhjin.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,5 +17,4 @@ public class PropertyUtils {
         }
         return properties.getProperty(key);
     }
-
 }
